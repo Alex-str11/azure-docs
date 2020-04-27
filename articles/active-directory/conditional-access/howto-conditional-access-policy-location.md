@@ -48,10 +48,11 @@ More information about the location condition in Conditional Access can be found
    1. **Include** select **Selected locations**
    1. Select the blocked location you created for your organization.
    1. Click **Select** > **Done** > **Done**.
-1. Under **Conditions** > **Client apps (Preview)**, set **Configure** to **Yes**, and select **Done**.
+1. Under **Conditions** > **Client apps (Preview)**, set **Configure** to **Yes**, and select **Done**. 
 1. Under **Access controls** > **Block**, and select **Select**.
 1. Confirm your settings and set **Enable policy** to **On**.
 1. Select **Create** to create to enable your policy.
+Note: For legacy authentication to have location evaluated please refer to https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/block-legacy-authentication#exchange-activesync
 
 ## Next steps
 
@@ -60,3 +61,4 @@ More information about the location condition in Conditional Access can be found
 [Determine impact using Conditional Access report-only mode](howto-conditional-access-report-only.md)
 
 [Simulate sign in behavior using the Conditional Access What If tool](troubleshoot-conditional-access-what-if.md)
+
